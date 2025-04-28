@@ -26,5 +26,10 @@ class Planet
 };
 
 int main(){
+  Planet venus;
+  venus.inputData();
+  cout << "Namanya adalah " << venus.nama << endl;
+  cout << "Diameternya adalah " << venus.diameter << endl;
 
+  venus.displayData();
 }
