@@ -9,6 +9,10 @@ class Planet
     string nama;
     float diameter;
 
+    void displayData()
+    {
+      cout << "garvitasiku " << gravitasi << endl;
+    }
 };
 
 int main(){
